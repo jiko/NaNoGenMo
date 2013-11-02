@@ -2,6 +2,8 @@
 
 Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. I plan to work with the text of Jane Austen's novels to generate a worthy addition to her corpus. This will take a lot of bad drafts to get right.
 
+I hereby dub the bot Gen Austen.
+
 ---
 
 # NaNoGenMo
