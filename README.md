@@ -1,8 +1,10 @@
-# Distraction and Distractability
+# Gen Austen
 
-Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. I plan to work with the text of Jane Austen's novels to generate a worthy addition to her corpus. This will take a lot of bad drafts to get right.
+I got all six of Austen's novels from [Project Gutenberg's Jane Austen collection](http://www.gutenberg.org/ebooks/author/68). I have included the Project Gutenberg license, which says, in short, that you can use their works however you want if you strip their front- and back-matter from the text, but if you give them any credit at all you have to include their full license. So, thanks Project Gutenberg.
 
-I hereby dub the bot Gen Austen.
+## Distraction and Distractability
+
+Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. 
 
 ---
 
