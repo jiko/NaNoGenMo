@@ -1,5 +1,5 @@
 {
-  "name": "Gen Austen",
+  "name": "GenAusten",
   "description": "Generate novels based on Jane Austen's corpus.",
   "version": "0.0.1",
   "homepage": "https://github.com/jiko/NaNoGenMo",

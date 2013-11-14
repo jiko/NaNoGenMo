@@ -4,7 +4,7 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 ## Distraction and Distractability
 
-Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. 
+Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the go-markov executable, compiled from markov.go on Linux x86-64, with a 3-gram model and Sense and Sensibility for input. The Distractable pieces were made with GenAusten.js, which badly integrates Part-of-Speech models with Markov generated text. 
 
 ## Deference and Destitution
 
