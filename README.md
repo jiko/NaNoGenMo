@@ -6,6 +6,10 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. 
 
+## Deference and Destitution
+
+Hat tip to Kevin Dalton for the working title.
+
 ---
 
 # NaNoGenMo
