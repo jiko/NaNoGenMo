@@ -1,0 +1,20 @@
+{
+  "name": "Gen Austen",
+  "description": "Generate novels based on Jane Austen's corpus.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jiko/NaNoGenMo",
+  "author": {
+    "name": "James Koppen",
+    "email": "jk@jameskoppen.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiko/NaNoGenMo.git"
+  },
+  "dependencies": {
+    "underscore": "~1.5.1",
+    "pos": "~0.1.2",
+    "line-by-line": "~0.1.1",
+    "markov": "~0.0.7"
+  }
+}
