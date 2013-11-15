@@ -1,5 +1,5 @@
 var fs = require('fs'),
-    text = 'corpus/SenseAndSensibility.txt';
+    text = '../corpus/SenseAndSensibility.txt';
 
 var pos = require('pos'),
     lexer = new pos.Lexer(),

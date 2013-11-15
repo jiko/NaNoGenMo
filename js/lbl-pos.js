@@ -4,7 +4,7 @@ var fs = require('fs');
 var text = process.argv[2];
 
 var lbl = require('line-by-line'),
-    lr = new lbl('corpus/'+ text + '.txt'),
+    lr = new lbl('../corpus/'+ text + '.txt'),
     lineNum = 0;
 
 var pos = require('pos'),
