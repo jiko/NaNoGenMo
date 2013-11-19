@@ -13,14 +13,19 @@ Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/16
 
 ## Deference and Destitution
 
-Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Pride and Prejudice served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
+Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Find the horror in the py folder. Pride and Prejudice served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
 
 ### Wordcount
 - 1039281 output/DeferenceAndDestitution.txt
 
-## Mandrake Flips
+## Inflamed Parks
 
-Next on the list is Mansfield Park. Working title courtesy of an anagram generator. 
+Next on the list is Mansfield Park. Working title courtesy of an anagram generator. Output courtesy of a crude bash script.
+
+### Wordcount
+- 50005 output/InflamedParks.txt
+
+## Blerg
 
 ---
 
