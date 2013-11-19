@@ -4,13 +4,11 @@
 # napalm.sh input-file-path output-file-path
 ###########
 
-count=0
 out=$2
 N=7
 dict="/usr/share/dict/words"
 touch $out
 while read line; do
-  let count++
   if [ $(wc -w $out | tr -d [:alpha:][:punct:][:space:]) -lt 50000 ]; then
       seventh=$(echo $line | cut -d " " -f $N)
       linenum=$(grep -xn "$seventh" $dict | tr -d [:alpha:][:punct:])
