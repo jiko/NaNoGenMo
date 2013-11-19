@@ -8,7 +8,11 @@ Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/16
 
 ## Deference and Destitution
 
-Hat tip to Kevin Dalton for the working title.
+Hat tip to Kevin Dalton for the working title. I've used a crazy numerological approach to create some even less readable output. Pride and Prejudice served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
+
+## Title TDB
+
+Next on the list is Mansfield Park.
 
 ---
 
