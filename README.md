@@ -6,9 +6,17 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the go-markov executable, compiled from markov.go on Linux x86-64, with a 3-gram model and Sense and Sensibility for input. The Distractable pieces were made with GenAusten.js, which badly integrates Part-of-Speech models with Markov generated text. 
 
+### Wordcounts
+- 99967 output/DistractionAndDistractables.txt
+- 136286 output/DistractionAndDistractable.txt
+- 50000 output/DistractionAndDistractibility.txt
+
 ## Deference and Destitution
 
 Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Pride and Prejudice served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
+
+### Wordcount
+- 1039281 output/DeferenceAndDestitution.txt
 
 ## Mandrake Flips
 
