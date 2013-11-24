@@ -4,7 +4,11 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 ## Distraction and Distractability
 
-Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the go-markov executable, compiled from markov.go on Linux x86-64, with a 3-gram model and _Sense and Sensibility_ for input. The _Distractable_ pieces were made with `GenAusten.js`, which badly integrates Part-of-Speech models with Markov generated text. 
+Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the `go-markov` executable, compiled from [markov.go](http://golang.org/doc/codewalk/markov/) on Linux x86-64, with a 3-gram model and _Sense and Sensibility_ for input.
+
+    go-markov -prefix=3 -words=50000 < corpus/SenseAndSensibility.txt > output/DistractionAndDistractability.txt
+
+The _Distractable_ pieces were made with `GenAusten.js`, which badly integrates Part-of-Speech models with Markov generated text. 
 
 ### Wordcounts
 - 99967 output/DistractionAndDistractables.txt
