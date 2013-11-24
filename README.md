@@ -4,7 +4,7 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 ## Distraction and Distractability
 
-Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the go-markov executable, compiled from markov.go on Linux x86-64, with a 3-gram model and Sense and Sensibility for input. The Distractable pieces were made with GenAusten.js, which badly integrates Part-of-Speech models with Markov generated text. 
+Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the go-markov executable, compiled from markov.go on Linux x86-64, with a 3-gram model and _Sense and Sensibility_ for input. The _Distractable_ pieces were made with `GenAusten.js`, which badly integrates Part-of-Speech models with Markov generated text. 
 
 ### Wordcounts
 - 99967 output/DistractionAndDistractables.txt
@@ -13,19 +13,33 @@ Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/16
 
 ## Deference and Destitution
 
-Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Find the horror in the py folder. Pride and Prejudice served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
+Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Find the horror in the py folder. _Pride and Prejudice_ served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
 
 ### Wordcount
 - 1039281 output/DeferenceAndDestitution.txt
 
 ## Inflamed Parks
 
-Next on the list is Mansfield Park. Working title courtesy of an anagram generator. Output courtesy of a crude bash script.
+Next on the list is _Mansfield Park_. Working title courtesy of an anagram generator. Output courtesy of a crude bash script.
 
 ### Wordcount
 - 50005 output/InflamedParks.txt
 
-## Blerg
+## Mena
+
+Using Leonard Richardson's [In-Dialogue](https://github.com/leonardr/In-Dialogue) project, I replaced the dialogue of _Mansfield Park_ with that of _Emma_.  
+
+### Wordcount
+
+- 156717 output/Mena.html 
+
+## Abby
+
+Using the same approach as before, I replaced the dialogue of _Northanger Abbey_ with that of _Emma_.
+
+### Wordcount
+
+- 94474 output/Abby.html
 
 ---
 
