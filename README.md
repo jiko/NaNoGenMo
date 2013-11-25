@@ -45,6 +45,18 @@ Using the same approach as before, I replaced the dialogue of _Northanger Abbey_
 
 - 94474 output/Abby.html
 
+## Nana Grammy
+
+I plugged "Northanger Abbey" into [an anagram generator](http://www.wordsmith.org/anagram/advanced.html) and copy/pasted the results into a file. It's a doozy.
+
+### Wordcount
+
+- 838483 output/Nanagrammy.txt
+
+## Convincing
+
+
+
 ---
 
 # NaNoGenMo
