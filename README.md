@@ -4,7 +4,7 @@ I got all six of Austen's novels from [Project Gutenberg's Jane Austen collectio
 
 ## Distraction and Distractability
 
-Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the output directory, I used the `go-markov` executable, compiled from [markov.go](http://golang.org/doc/codewalk/markov/) on Linux x86-64, with a 3-gram model and _Sense and Sensibility_ for input.
+Hat tip to [Steve Inskeep and NPR](http://www.npr.org/blogs/health/2012/10/09/162401053/a-lively-mind-your-brain-on-jane-austen) for my working title. For this piece, which you can find in the `output` directory, I used the `go-markov` executable, compiled from [markov.go](http://golang.org/doc/codewalk/markov/) on Linux x86-64, with a 3-gram model and _Sense and Sensibility_ for input.
 
     go-markov -prefix=3 -words=50000 < corpus/SenseAndSensibility.txt > output/DistractionAndDistractability.txt
 
@@ -17,7 +17,7 @@ The _Distractable_ pieces were made with `GenAusten.js`, which badly integrates 
 
 ## Deference and Destitution
 
-Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Find the horror in the py folder. _Pride and Prejudice_ served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
+Hat tip to [Kevin Dalton](https://github.com/kmdalton) for the working title. I've used a crazy numerological approach to create some even less readable output. Find the horror in the `py` folder. _Pride and Prejudice_ served as the corpus. I've never read it. Science beats superstition every time, eh Sherlock?
 
 ### Wordcount
 - 1039281 output/DeferenceAndDestitution.txt
@@ -55,7 +55,11 @@ I plugged "Northanger Abbey" into [an anagram generator](http://www.wordsmith.or
 
 ## Convincing
 
+Ah yes, fan fiction. What the hell. Lots of Austen fanfic out there, so I went with [Archive of Our Own](http://archiveofourown.org/tags/Persuasion%20-%20Jane%20Austen/works?commit=Sort+and+Filter&page=1&utf8=%E2%9C%93&work_search%5Bcomplete%5D=0&work_search%5Blanguage_id%5D=1&work_search%5Bother_tag_names%5D=&work_search%5Bquery%5D=&work_search%5Bsort_column%5D=revised_at), copying and pasting by hand. I compiled a list of links to the works I copied in `corpus/fanfic/sources.txt`. Once again, I have used `go-markov -prefix=3` &c.
 
+### Wordcount
+
+- 50000 output/Convincing.txt
 
 ---
 
