@@ -57,9 +57,14 @@ I plugged "Northanger Abbey" into [an anagram generator](http://www.wordsmith.or
 
 Ah yes, fan fiction. What the hell. Lots of Austen fanfic out there, so I went with [Archive of Our Own](http://archiveofourown.org/tags/Persuasion%20-%20Jane%20Austen/works?commit=Sort+and+Filter&page=1&utf8=%E2%9C%93&work_search%5Bcomplete%5D=0&work_search%5Blanguage_id%5D=1&work_search%5Bother_tag_names%5D=&work_search%5Bquery%5D=&work_search%5Bsort_column%5D=revised_at), copying and pasting by hand. I compiled a list of links to the works I copied in `corpus/fanfic/sources.txt`. Once again, I have used `go-markov -prefix=3` &c.
 
+I decided to try [FanFiction.net](https://www.fanfiction.net/book/Persuasion/), also, using [@ianrenton](https://github.com/ianrenton/NaNoGenMo)'s Ruby script. I titled the output _Inveiglement_, though the script titled it _And that my dear is precisely why we are on a first-name basis even though as you so observantly pointed out we have only just met_.
+
 ### Wordcount
 
 - 50000 output/Convincing.txt
+- 50015 output/Inveiglement.html
+
+## FIN
 
 ---
 
