@@ -16,15 +16,14 @@ def numogram(phrase):
 def reeduce(phrase):
     return numogram(phrase) % 9 or 9
 
-mapping = dict(([i, []] for i in xrange(1, 10)))
 with open('corpus/PrideAndPrejudice.txt') as f:
-    with open('output/DeferenceAndDestitution.txt', 'a') as d:
-        io = StringIO(f.read())
-        for line in io:
-            new_line = ''
-            for word in line.split():
-                reduction = reeduce(word)
-                if word not in mapping[reduction]:
-                    mapping[reduction].append(word)
-                new_line += choice(mapping[reduction]) + " "
-            d.write(new_line + "\n") 
+    lines = [line.strip() for line in f]
+
+mapping = dict(([i, []] for i in xrange(1, 10)))
+for line in lines:
+    reduction = reeduce(line)
+    mapping[reduction].append(line)
+
+with open('output/CrappedDidIreJune.txt', 'w') as d:
+        new_line = choice(mapping[reduction])
+        d.write(new_line + "\n") 
