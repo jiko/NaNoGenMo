@@ -26,8 +26,8 @@ for sentence in sentences:
     reduction = reeduce(sentence)
     mapping[reduction].append(sentence)
 
-with open('output/AcidRiddenJeerPup.txt', 'w') as d:
+with open('output/JeerRiddenAcidPup.txt', 'w') as d:
     for sentence in sentences:
         reduction = reeduce(sentence)
         new_line = choice(mapping[reduction])
-        d.write(new_line + "\n") 
+        d.write(new_line.replace("\r\n"," ") + "\n")
